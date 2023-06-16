@@ -9,7 +9,7 @@ taula = cursor.execute("SELECT * FROM Notes")
 #seleccionam tota la taula
 llista = taula.fetchall()
 #assignam la taula a una variable
-print (llista[0][3:])
+print(len(llista))
 estudiant = 0
 qualificacions = 3
 #cream variables auxiliars
