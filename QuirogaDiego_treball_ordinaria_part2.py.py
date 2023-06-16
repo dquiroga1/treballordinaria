@@ -1,5 +1,6 @@
 import sqlite3
 #obrir la biblioteca "sqlite3"
+diccionari = {}    
 conexió = sqlite3.connect("Notes.db")
 #cream una connexió
 cursor = conexió.cursor()
